@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Kavish" charset="utf-8">
+        <title>background1</title>
+        <style>
+            ol, li{
+                margin: 0;
+                padding: auto;
+            }
+            li{
+                margin-bottom: 12px;
+            }
+            div{
+                background-image: url("./star.jpg");
+                background-size: 60px, 30px; 
+                width: 1600px;
+                height: 700px;
+            }
+            .first{
+                background-repeat: no-repeat;
+            }
+            .second{
+                background-repeat: repeat;
+            }
+            .third {
+                background-repeat: repeat-x;
+            }
+            .fourth{
+                background-repeat: repeat-y;
+            }
+            .fiveth {
+                background-repeat: space;
+            }
+            .sixth{
+                background-repeat: round;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <ol>
+            <li>no-repeat
+                <div class="first"></div>
+            </li>
+            <li>repeat
+                <div class="second"></div>
+            </li>
+            <li>repeat-x
+                <div class="third"></div>
+            </li>
+            <li>repeat-y
+                <div class="fourth"></div>
+            </li>
+            <li>space
+                <div class="fiveth"></div>
+            </li>
+            <li>round
+                <div class="sixth"></div>
+            </li>
+        </ol>
+    </body>
+</html>
